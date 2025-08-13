@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ihre Perfekte Fitness-Webseite</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+        :root {
+            --primary-color: #ffffff;
+            --secondary-color: #f0f0f0;
+            --text-color: #333;
+            --accent-color-1: #9b59b6;
+            --accent-color-2: #3498db;
+            --accent-color-3: #e74c3c;
+            --accent-color-4: #2ecc71;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background: linear-gradient(-45deg, var(--accent-color-1), var(--accent-color-2), var(--accent-color-3), var(--accent-color-4));
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            line-height: 1.6;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 0;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            animation: fadeInDown 1.5s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        header p {
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+            animation: fadeInUp 1.5s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: var(--accent-color-2);
+            text-align: center;
+            margin-bottom: 2rem;
+            position: relative;
+            animation: slideIn 1s ease-in-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: var(--accent-color-1);
+            margin: 0.5rem auto 0;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            color: var(--accent-color-3);
+            margin-top: 1.5rem;
+        }
+
+        p, ul {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        strong {
+            color: var(--text-color);
+            font-weight: 700;
+        }
+
+        .highlight {
+            background-color: rgba(52, 152, 219, 0.1);
+            padding: 0.2rem 0.5rem;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ihre Perfekte Fitness-Webseite</h1>
+        <p>Ein dynamisches und inspirierendes Online-Erlebnis</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Der Einstieg in Ihre Fitnessreise: Die ersten Schritte zum Erfolg</h2>
+            <p>Für viele ist der Anfang die größte Hürde. Doch mit der richtigen Herangehensweise kann jeder den Grundstein für einen gesünderen Lebensstil legen. Wichtig ist es, sich realistische Ziele zu setzen und sich nicht zu überfordern. Zwei bis drei Trainingseinheiten pro Woche sind für den Anfang ideal, um dem Körper Zeit zur Anpassung zu geben.</p>
+            <h3>Die Bedeutung von "Warum"</h3>
+            <p>Definieren Sie Ihre persönlichen Beweggründe. Ob es gesundheitliche Aspekte, der Wunsch nach Gewichtsverlust oder der Ausgleich zum Alltagsstress ist – ein klares Ziel ist der stärkste Motivator.</p>
+            <h3>Die Wahl der richtigen Aktivität</h3>
+            <p>Der Spaßfaktor ist entscheidend für langfristigen Erfolg. Wählen Sie eine Sportart, die Ihnen Freude bereitet. Das Angebot ist vielfältig und reicht von Laufen und Schwimmen bis hin zu Yoga und Tanzen.</p>
+        </section>
+
+        <section>
+            <h2>Die Säulen der Fitness: Ein ganzheitlicher Ansatz</h2>
+            <p>Fitness ist mehrdimensional und umfasst verschiedene Aspekte, die in einem ausgewogenen Verhältnis zueinander stehen sollten.</p>
+            <h3>Ausdauertraining (Cardio)</h3>
+            <p>Aktivitäten wie Laufen, Radfahren oder Schwimmen stärken das Herz-Kreislauf-System, verbessern die Lungenfunktion und verbrennen Kalorien. Angestrebt werden sollten mindestens <span class="highlight">150 Minuten moderate oder 75 Minuten intensive</span> Ausdauerbelastung pro Woche.</p>
+            <h3>Krafttraining</h3>
+            <p>Der Aufbau von Muskelmasse ist nicht nur für ein straffes Erscheinungsbild wichtig, sondern erhöht auch den Grundumsatz, was bedeutet, dass der Körper im Ruhezustand mehr Kalorien verbrennt. Dies kann durch Training mit dem eigenen Körpergewicht (Bodyweight-Training) oder mit Gewichten im Fitnessstudio erreicht werden.</p>
+            <h3>Beweglichkeit und Koordination</h3>
+            <p>Übungen, die die Beweglichkeit fördern, wie Yoga oder Pilates, verbessern die Körperhaltung und können Verletzungen vorbeugen. Koordinationstraining schult das Zusammenspiel von Nervensystem und Muskulatur.</p>
+        </section>
+        
+        <section>
+            <h2>Trainingsmethoden für jedes Ziel und jedes Level</h2>
+            <p>Die Welt des Fitnesstrainings ist vielfältig und bietet für jeden das passende Programm.</p>
+            <h3>Hochintensives Intervalltraining (HIIT)</h3>
+            <p>Kurze, intensive Belastungsphasen im Wechsel mit kurzen Erholungsphasen machen HIIT zu einer äußerst zeiteffizienten Trainingsmethode, um die Fettverbrennung anzukurbeln.</p>
+            <h3>Funktionelles Training</h3>
+            <p>Hier stehen alltagsnahe Bewegungsabläufe im Vordergrund, bei denen mehrere Muskelgruppen gleichzeitig beansprucht werden.</p>
+            <h3>CrossFit</h3>
+            <p>Diese intensive Trainingsmethode kombiniert Elemente aus Gewichtheben, Ausdauertraining und Gymnastik und wird oft in der Gruppe ausgeübt, was die Motivation steigern kann.</p>
+        </section>
+
+        <section>
+            <h2>Die richtige Ernährung: Treibstoff für Ihren Körper</h2>
+            <p>Training und Ernährung gehen Hand in Hand. Eine ausgewogene Ernährung ist die Basis für Leistungsfähigkeit und Regeneration.</p>
+            <h3>Makronährstoffe</h3>
+            <p><strong>Kohlenhydrate</strong> sind die wichtigste Energiequelle für den Körper, während <strong>Proteine</strong> für den Muskelaufbau und die Reparatur von Gewebe unerlässlich sind. <strong>Fette</strong> spielen ebenfalls eine wichtige Rolle, unter anderem für die Aufnahme von Vitaminen.</p>
+            <h3>Mikronährstoffe</h3>
+            <p>Vitamine und Mineralstoffe sind für zahlreiche Stoffwechselprozesse von entscheidender Bedeutung. Sportler haben oft einen erhöhten Bedarf.</p>
+            <h3>Hydration</h3>
+            <p>Ausreichend Flüssigkeit ist für die Leistungsfähigkeit und die allgemeine Gesundheit von großer Bedeutung.</p>
+        </section>
+        
+        <section>
+            <h2>Die mentale Komponente: Fitness für den Geist</h2>
+            <p>Regelmäßige Bewegung hat nachweislich positive Effekte auf die Psyche.</p>
+            <ul>
+                <li><strong>Stressabbau:</strong> Sport hilft, die Stresshormone Cortisol und Adrenalin abzubauen.</li>
+                <li><strong>Stimmungsaufhellung:</strong> Bei körperlicher Aktivität werden Endorphine, sogenannte Glückshormone, ausgeschüttet, die für ein gesteigertes Wohlbefinden sorgen.</li>
+                <li><strong>Gesteigertes Selbstbewusstsein:</strong> Das Erreichen von selbst gesteckten Zielen und die spürbare Verbesserung der eigenen Leistungsfähigkeit können das Selbstwertgefühl enorm steigern.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Motivation aufrechterhalten: So bleiben Sie am Ball</h2>
+            <p>Auch die motiviertesten Sportler kennen Phasen, in denen der innere Schweinehund übermächtig scheint.</p>
+            <ul>
+                <li><strong>Trainingspartner:</strong> Gemeinsam trainiert es sich leichter. Ein fester Trainingspartner kann motivieren und zu Höchstleistungen anspornen.</li>
+                <li><strong>Fortschritte dokumentieren:</strong> Halten Sie Ihre Erfolge fest, sei es durch Fotos oder ein Trainingstagebuch. Dies visualisiert Ihre Entwicklung und dient als starker Ansporn.</li>
+                <li><strong>Belohnungen setzen:</strong> Belohnen Sie sich für erreichte Meilensteine. Das kann ein entspannendes Bad, ein neues Sportoutfit oder ein gesunder, aber leckerer Snack sein.</li>
+                <li><strong>Inspiration suchen:</strong> Lassen Sie sich von den Erfolgsgeschichten anderer Sportler inspirieren. Soziale Medien und Fitness-Blogs können hier eine wertvolle Quelle sein.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ihre Fitness-Webseite. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script>
+        // Optionaler JavaScript für zukünftige Interaktionen
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animation = 'slideIn 1s ease-in-out forwards';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>
